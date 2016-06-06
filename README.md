@@ -17,6 +17,11 @@ contributions.
 
 ## Installation
 
-Installation instructions are available on 
-[https://github.com/PiPot/pipot-server/blob/master/install/instructions.md]
-(https://github.com/PiPot/pipot-server/blob/master/install/instructions.md)
+Installing PiPot is pretty straightforward:
+
+* Copy or clone the entire `pipot-server` and `pipot-client` repositories to 
+`/usr/src/pipot` (so the respective locations would be `/usr/src/pipot/server`
+and `/usr/src/pipot/client`).
+* (Optional) `chmod +x /usr/src/pipot/server/install/install.sh`
+* `/usr/src/pipot/server/install/install.sh` (execute as root or use `sudo`)
+* Answer any questions the installer asks
