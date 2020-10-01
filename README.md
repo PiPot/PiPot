@@ -17,7 +17,7 @@ contributions.
 
 ## Installation
 
-Installing PiPot is pretty straightforward:
+Installing PiPot can be accomplished by following the following steps:
 
 * Copy or clone the entire `pipot-server` and `pipot-client` repositories to 
 `/usr/src/pipot` (so the respective locations would be `/usr/src/pipot/server`
@@ -26,3 +26,5 @@ and `/usr/src/pipot/client`).
 * `chmod +x /usr/src/pipot/client/bin/chroot.sh` (for image generation)
 * `/usr/src/pipot/server/install/install.sh` (execute as root or use `sudo`)
 * Answer any questions the installer asks
+
+This should leave you with a runnable installation.
